@@ -88,8 +88,9 @@ namespace Database
 
         public static void SaveToFile()
         {
-            string path_data = "C:\\Users\\Prisma\\source\\repos\\final_project\\final_project\\bin\\Debug\\pets.json";
-            string path_id_counter = "C:\\Users\\Prisma\\source\\repos\\final_project\\final_project\\bin\\Debug\\pets_id_counter.json";
+            string currentDirectory = Directory.GetCurrentDirectory();
+            string path_data = currentDirectory + "\\pets.json";
+            string path_id_counter = currentDirectory +"\\pets_id_counter.json";
             var jsonData = SerializeData(Data);
             File.WriteAllText(path_data, jsonData);
             File.WriteAllText(path_id_counter, id_counter.ToString());
@@ -97,8 +98,12 @@ namespace Database
 
         public static void LoadFromFile()
         {
-            string path = "C:\\Users\\Prisma\\source\\repos\\final_project\\final_project\\bin\\Debug\\pets.json";
-            string path_id_counter = "C:\\Users\\Prisma\\source\\repos\\final_project\\final_project\\bin\\Debug\\pets_id_counter.json";
+            //string path = "C:\\Users\\Prisma\\source\\repos\\final_project\\final_project\\bin\\Debug\\pets.json";
+            //string path_id_counter = "C:\\Users\\Prisma\\source\\repos\\final_project\\final_project\\bin\\Debug\\pets_id_counter.json";
+            string currentDirectory = Directory.GetCurrentDirectory();
+            string path = currentDirectory +"\\pets.json";
+            string path_id_counter = currentDirectory + "\\pets_id_counter.json";
+
             if (!File.Exists(path))
                 throw new FileNotFoundException("File not found.", path);
             if (!File.Exists(path))
