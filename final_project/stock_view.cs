@@ -121,5 +121,10 @@ namespace final_project
             this.Hide();
 
         }
+
+        private void bindingSource1_CurrentChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -112,7 +112,6 @@ namespace Database
             var jsonData = File.ReadAllText(path);
             //var id_counter_file = File.ReadAllText(path_id_counter);
             //DeserializeData(jsonData, id_counter_file);
-
             DeserializeData(jsonData, path_id_counter);
         }
 

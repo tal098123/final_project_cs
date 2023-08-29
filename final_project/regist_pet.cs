@@ -22,5 +22,32 @@ namespace final_project
         {
 
         }
+
+        private void comboBox3_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if (comboBox3.SelectedItem.ToString() == "Dog")
+            {
+                comboBox2.Items.Clear();
+                comboBox2.Items.Add("Poodle");
+                comboBox2.Items.Add("Retriever");
+            }
+            else if (comboBox3.SelectedItem.ToString() == "Cat")
+            {
+                comboBox2.Items.Clear();
+                comboBox2.Items.Add("Siamese");
+                comboBox2.Items.Add("British");
+            }
+            else if (comboBox3.SelectedItem.ToString() == "Fish")
+            {
+                comboBox2.Items.Clear();
+                comboBox2.Items.Add("Gold fish");
+                comboBox2.Items.Add("Angelfish");
+            }
+        }
+
+        private void comboBox2_SelectedIndexChanged(object sender, EventArgs e)
+        {
+           
+        }
     }
 }
