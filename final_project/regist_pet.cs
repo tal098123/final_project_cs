@@ -74,10 +74,9 @@ namespace final_project
             
             else if (comboBox2.SelectedItem.ToString() == "Goldfish")
                 SharedDatabase.Data["Fish"]["Goldfish"].Add(new Poodle(textBox1.Text.ToString(), DateTime.Today, dateTimePicker1.Value));
-            
             else 
                 SharedDatabase.Data["Fish"]["Angelfish"].Add(new Poodle(textBox1.Text.ToString(), DateTime.Today, dateTimePicker1.Value));
-
+            SharedDatabase.DataChanged();
             this.Hide();
 
 

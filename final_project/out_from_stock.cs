@@ -15,12 +15,13 @@ namespace final_project
 {
     public partial class out_from_stock : Form
     {
-        public string pet_type ;
-        public string pet_specie;
-        public Pet selected_pet;
+        public string pet_type = "Dog";
+        public string pet_specie = "Poodle";
         public out_from_stock()
         {
             InitializeComponent();
+            refresh_list();
+            SharedDatabase.OnDataChanged += refresh_list;
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -39,7 +40,9 @@ namespace final_project
             if (selectedIndex >= 0)
             {
                 SharedDatabase.Data[pet_type][pet_specie].RemoveAt(selectedIndex);
+                SharedDatabase.DataChanged();
             }
+            refresh_list();
         }
         private void radioButton4_CheckedChanged(object sender, EventArgs e)
         {
@@ -79,7 +82,6 @@ namespace final_project
             //SharedDatabase.SaveToFile();
             //int count = SharedDatabase.Data["Dog"]["Poodle"].Count;
             listBox1.Items.Clear();
-            selected_pet = null;
             int count = SharedDatabase.Data[pet_type][pet_specie].Count;
             for (int i = 0; i < count; i++)
             {

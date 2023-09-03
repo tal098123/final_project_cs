@@ -22,45 +22,7 @@ namespace final_project
         public TakeCare()
         {
             InitializeComponent();
-            //type_dog_radio.Checked = true;
-            //specie1_radio.Checked = true;
-            //specie1_radio.Text = "Poodle";
-            //specie2_radio.Text = "GoldenRetriever";
-            //SharedDatabase.Data["Dog"] = new Dictionary<string, List<Pet>>();
-            //SharedDatabase.Data["Dog"]["Poodle"] = new List<Pet>();
-            //SharedDatabase.Data["Dog"]["Poodle"].Add(new Poodle("George", DateTime.Now, DateTime.Now));
-            //SharedDatabase.Data["Dog"]["Poodle"] = new List<Pet>();
-            //SharedDatabase.specie_id["Dog"] = new Dictionary<int, string>();
-            //SharedDatabase.specie_id["Dog"][1] = "Poodle";
-            //SharedDatabase.Data["Dog"] = new Dictionary<string, List<Pet>>();
-            //SharedDatabase.Data["Dog"]["GoldenRetriever"] = new List<Pet>();
-            //SharedDatabase.Data["Dog"]["GoldenRetriever"].Add(new GoldenRetriever("Terry", DateTime.Now, DateTime.Now));
-            //SharedDatabase.specie_id["Dog"][2] = "GoldenRetriever";
-            //SharedDatabase.Data["Cat"] = new Dictionary<string, List<Pet>>();
-            //SharedDatabase.Data["Cat"]["Siamese"] = new List<Pet>();
-            //SharedDatabase.Data["Cat"]["Siamese"].Add(new Siamese("shimi", DateTime.Now, DateTime.Now));
-            //SharedDatabase.specie_id["Cat"] = new Dictionary<int, string>();
-            //SharedDatabase.specie_id["Cat"][1] = "Siamese";
-            //SharedDatabase.Data["Cat"] = new Dictionary<string, List<Pet>>();
-            //SharedDatabase.Data["Cat"]["British"] = new List<Pet>();
-            //SharedDatabase.Data["Cat"]["British"].Add(new British("Sebastian", DateTime.Now, DateTime.Now));
-            //SharedDatabase.specie_id["Cat"][2] = "British";
-            //SharedDatabase.Data["Fish"] = new Dictionary<string, List<Pet>>();
-            //SharedDatabase.Data["Fish"]["GoldFish"] = new List<Pet>();
-            //SharedDatabase.Data["Fish"]["GoldFish"].Add(new Goldfish("Danny", DateTime.Now, DateTime.Now));
-            //SharedDatabase.specie_id["Fish"] = new Dictionary<int, string>();
-            //SharedDatabase.specie_id["Fish"][1] = "GoldFish";
-            //SharedDatabase.Data["Fish"] = new Dictionary<string, List<Pet>>();
-            //SharedDatabase.Data["Fish"]["AngelFish"] = new List<Pet>();
-            //SharedDatabase.Data["Fish"]["AngelFish"].Add(new Angelfish("Kiki", DateTime.Now, DateTime.Now));
-            //SharedDatabase.specie_id["Fish"][2] = "AngelFish";
             refresh_list();
-
-
-            //SharedDatabase.Data["3e3e"] = new Dictionary<string, Pet>();
-            //RefreshPetsDict();
-
-            //// Subscribe to data changes
             SharedDatabase.OnDataChanged += refresh_list;
         }
         private void button2_Click(object sender, EventArgs e)

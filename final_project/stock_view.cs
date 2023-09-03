@@ -19,6 +19,7 @@ namespace final_project
         public stock_view()
         {
             InitializeComponent();
+            SharedDatabase.OnDataChanged += refresh_list;
         }
 
         private void stock_view_Load(object sender, EventArgs e)
