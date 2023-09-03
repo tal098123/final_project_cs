@@ -9,6 +9,9 @@ using System.Threading.Tasks;
 using Database;
 using System.Windows.Forms;
 
+
+using Pets;
+
 namespace final_project
 {
     public partial class regist_pet : Form
@@ -47,7 +50,54 @@ namespace final_project
 
         private void comboBox2_SelectedIndexChanged(object sender, EventArgs e)
         {
+          
+        }
+
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)///
+        {
+
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            if (comboBox2.SelectedItem.ToString() == "Poodle")
+                SharedDatabase.Data["Dog"]["Poodle"].Add(new Poodle(textBox1.Text.ToString(), DateTime.Today, dateTimePicker1.Value));
            
+            else if (comboBox2.SelectedItem.ToString() == "GoldenRetriever")
+                SharedDatabase.Data["Dog"]["GoldenRetriever"].Add(new Poodle(textBox1.Text.ToString(), DateTime.Today, dateTimePicker1.Value));
+            
+            else if (comboBox2.SelectedItem.ToString() == "Siamese")
+                SharedDatabase.Data["Cat"]["Siamese"].Add(new Poodle(textBox1.Text.ToString(), DateTime.Today, dateTimePicker1.Value));
+            
+            else if (comboBox2.SelectedItem.ToString() == "British")
+                SharedDatabase.Data["Cat"]["British"].Add(new Poodle(textBox1.Text.ToString(), DateTime.Today, dateTimePicker1.Value));
+            
+            else if (comboBox2.SelectedItem.ToString() == "Goldfish")
+                SharedDatabase.Data["Fish"]["Goldfish"].Add(new Poodle(textBox1.Text.ToString(), DateTime.Today, dateTimePicker1.Value));
+            
+            else 
+                SharedDatabase.Data["Fish"]["Angelfish"].Add(new Poodle(textBox1.Text.ToString(), DateTime.Today, dateTimePicker1.Value));
+
+            this.Hide();
+
+
+        }
+
+        private void dateTimePicker1_ValueChanged(object sender, EventArgs e)
+        {
+            dateTimePicker1.MaxDate = DateTime.Today;
+            dateTimePicker1.MinDate = DateTime.Today.AddYears(-4);
+            //DateTime dt = dateTimePicker1.Value;
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+           
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

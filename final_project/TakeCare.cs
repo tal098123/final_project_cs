@@ -197,5 +197,10 @@ namespace final_project
         {
             this.Hide();
         }
+
+        private void label_arriving_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

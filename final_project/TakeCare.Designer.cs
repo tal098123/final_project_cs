@@ -54,9 +54,10 @@ namespace final_project
             // back_to_options_btn
             // 
             this.back_to_options_btn.Font = new System.Drawing.Font("Microsoft Tai Le", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.back_to_options_btn.Location = new System.Drawing.Point(283, 12);
+            this.back_to_options_btn.Location = new System.Drawing.Point(377, 15);
+            this.back_to_options_btn.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.back_to_options_btn.Name = "back_to_options_btn";
-            this.back_to_options_btn.Size = new System.Drawing.Size(212, 47);
+            this.back_to_options_btn.Size = new System.Drawing.Size(283, 58);
             this.back_to_options_btn.TabIndex = 1;
             this.back_to_options_btn.Text = "Back to options";
             this.back_to_options_btn.UseVisualStyleBackColor = true;
@@ -65,18 +66,21 @@ namespace final_project
             // Pets_stock
             // 
             this.Pets_stock.FormattingEnabled = true;
-            this.Pets_stock.Location = new System.Drawing.Point(38, 61);
+            this.Pets_stock.ItemHeight = 16;
+            this.Pets_stock.Location = new System.Drawing.Point(51, 75);
+            this.Pets_stock.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Pets_stock.Name = "Pets_stock";
-            this.Pets_stock.Size = new System.Drawing.Size(207, 290);
+            this.Pets_stock.Size = new System.Drawing.Size(275, 356);
             this.Pets_stock.TabIndex = 22;
             this.Pets_stock.SelectedIndexChanged += new System.EventHandler(this.listBox1_SelectedIndexChanged);
             // 
             // specie2_radio
             // 
             this.specie2_radio.AutoSize = true;
-            this.specie2_radio.Location = new System.Drawing.Point(0, 94);
+            this.specie2_radio.Location = new System.Drawing.Point(0, 116);
+            this.specie2_radio.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.specie2_radio.Name = "specie2_radio";
-            this.specie2_radio.Size = new System.Drawing.Size(85, 17);
+            this.specie2_radio.Size = new System.Drawing.Size(110, 21);
             this.specie2_radio.TabIndex = 21;
             this.specie2_radio.TabStop = true;
             this.specie2_radio.Text = "radioButton5";
@@ -86,9 +90,10 @@ namespace final_project
             // specie1_radio
             // 
             this.specie1_radio.AutoSize = true;
-            this.specie1_radio.Location = new System.Drawing.Point(0, 46);
+            this.specie1_radio.Location = new System.Drawing.Point(0, 57);
+            this.specie1_radio.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.specie1_radio.Name = "specie1_radio";
-            this.specie1_radio.Size = new System.Drawing.Size(85, 17);
+            this.specie1_radio.Size = new System.Drawing.Size(110, 21);
             this.specie1_radio.TabIndex = 20;
             this.specie1_radio.TabStop = true;
             this.specie1_radio.Text = "radioButton4";
@@ -98,9 +103,10 @@ namespace final_project
             // type_fish_radio
             // 
             this.type_fish_radio.AutoSize = true;
-            this.type_fish_radio.Location = new System.Drawing.Point(0, 106);
+            this.type_fish_radio.Location = new System.Drawing.Point(0, 130);
+            this.type_fish_radio.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.type_fish_radio.Name = "type_fish_radio";
-            this.type_fish_radio.Size = new System.Drawing.Size(44, 17);
+            this.type_fish_radio.Size = new System.Drawing.Size(55, 21);
             this.type_fish_radio.TabIndex = 19;
             this.type_fish_radio.TabStop = true;
             this.type_fish_radio.Text = "Fish";
@@ -110,9 +116,10 @@ namespace final_project
             // type_cat_radio
             // 
             this.type_cat_radio.AutoSize = true;
-            this.type_cat_radio.Location = new System.Drawing.Point(0, 69);
+            this.type_cat_radio.Location = new System.Drawing.Point(0, 85);
+            this.type_cat_radio.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.type_cat_radio.Name = "type_cat_radio";
-            this.type_cat_radio.Size = new System.Drawing.Size(41, 17);
+            this.type_cat_radio.Size = new System.Drawing.Size(50, 21);
             this.type_cat_radio.TabIndex = 18;
             this.type_cat_radio.TabStop = true;
             this.type_cat_radio.Text = "Cat";
@@ -122,9 +129,10 @@ namespace final_project
             // type_dog_radio
             // 
             this.type_dog_radio.AutoSize = true;
-            this.type_dog_radio.Location = new System.Drawing.Point(0, 35);
+            this.type_dog_radio.Location = new System.Drawing.Point(0, 43);
+            this.type_dog_radio.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.type_dog_radio.Name = "type_dog_radio";
-            this.type_dog_radio.Size = new System.Drawing.Size(45, 17);
+            this.type_dog_radio.Size = new System.Drawing.Size(55, 21);
             this.type_dog_radio.TabIndex = 17;
             this.type_dog_radio.TabStop = true;
             this.type_dog_radio.Text = "Dog";
@@ -134,9 +142,10 @@ namespace final_project
             // check_pet_btn
             // 
             this.check_pet_btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.check_pet_btn.Location = new System.Drawing.Point(571, 305);
+            this.check_pet_btn.Location = new System.Drawing.Point(761, 375);
+            this.check_pet_btn.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.check_pet_btn.Name = "check_pet_btn";
-            this.check_pet_btn.Size = new System.Drawing.Size(151, 40);
+            this.check_pet_btn.Size = new System.Drawing.Size(201, 49);
             this.check_pet_btn.TabIndex = 26;
             this.check_pet_btn.Text = "Check the pet";
             this.check_pet_btn.UseVisualStyleBackColor = true;
@@ -145,9 +154,10 @@ namespace final_project
             // feed_pet_btn
             // 
             this.feed_pet_btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.feed_pet_btn.Location = new System.Drawing.Point(334, 305);
+            this.feed_pet_btn.Location = new System.Drawing.Point(445, 375);
+            this.feed_pet_btn.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.feed_pet_btn.Name = "feed_pet_btn";
-            this.feed_pet_btn.Size = new System.Drawing.Size(151, 40);
+            this.feed_pet_btn.Size = new System.Drawing.Size(201, 49);
             this.feed_pet_btn.TabIndex = 27;
             this.feed_pet_btn.Text = "Feed the pet";
             this.feed_pet_btn.UseVisualStyleBackColor = true;
@@ -157,9 +167,11 @@ namespace final_project
             // 
             this.groupBox1.Controls.Add(this.specie1_radio);
             this.groupBox1.Controls.Add(this.specie2_radio);
-            this.groupBox1.Location = new System.Drawing.Point(356, 95);
+            this.groupBox1.Location = new System.Drawing.Point(475, 117);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(150, 136);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox1.Size = new System.Drawing.Size(200, 167);
             this.groupBox1.TabIndex = 30;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Specie";
@@ -169,9 +181,11 @@ namespace final_project
             this.groupBox2.Controls.Add(this.type_fish_radio);
             this.groupBox2.Controls.Add(this.type_cat_radio);
             this.groupBox2.Controls.Add(this.type_dog_radio);
-            this.groupBox2.Location = new System.Drawing.Point(571, 95);
+            this.groupBox2.Location = new System.Drawing.Point(761, 117);
+            this.groupBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(109, 147);
+            this.groupBox2.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox2.Size = new System.Drawing.Size(145, 181);
             this.groupBox2.TabIndex = 0;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Type";
@@ -180,9 +194,10 @@ namespace final_project
             // 
             this.pet_feedback.AutoSize = true;
             this.pet_feedback.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.pet_feedback.Location = new System.Drawing.Point(401, 391);
+            this.pet_feedback.Location = new System.Drawing.Point(535, 481);
+            this.pet_feedback.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.pet_feedback.Name = "pet_feedback";
-            this.pet_feedback.Size = new System.Drawing.Size(51, 20);
+            this.pet_feedback.Size = new System.Drawing.Size(64, 25);
             this.pet_feedback.TabIndex = 31;
             this.pet_feedback.Text = "label2";
             this.pet_feedback.Click += new System.EventHandler(this.label2_Click_1);
@@ -190,62 +205,69 @@ namespace final_project
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(79, 421);
+            this.label1.Location = new System.Drawing.Point(105, 518);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(15, 13);
+            this.label1.Size = new System.Drawing.Size(19, 17);
             this.label1.TabIndex = 32;
             this.label1.Text = "id";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(66, 373);
+            this.label3.Location = new System.Drawing.Point(88, 459);
+            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(28, 13);
+            this.label3.Size = new System.Drawing.Size(36, 17);
             this.label3.TabIndex = 33;
             this.label3.Text = "age:";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(26, 396);
+            this.label4.Location = new System.Drawing.Point(35, 487);
+            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(68, 13);
+            this.label4.Size = new System.Drawing.Size(91, 17);
             this.label4.TabIndex = 34;
             this.label4.Text = "arriving_date";
             // 
             // label_age
             // 
             this.label_age.AutoSize = true;
-            this.label_age.Location = new System.Drawing.Point(110, 373);
+            this.label_age.Location = new System.Drawing.Point(147, 459);
+            this.label_age.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label_age.Name = "label_age";
-            this.label_age.Size = new System.Drawing.Size(53, 13);
+            this.label_age.Size = new System.Drawing.Size(70, 17);
             this.label_age.TabIndex = 35;
             this.label_age.Text = "label_age";
             // 
             // label_arriving
             // 
             this.label_arriving.AutoSize = true;
-            this.label_arriving.Location = new System.Drawing.Point(110, 396);
+            this.label_arriving.Location = new System.Drawing.Point(147, 487);
+            this.label_arriving.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label_arriving.Name = "label_arriving";
-            this.label_arriving.Size = new System.Drawing.Size(69, 13);
+            this.label_arriving.Size = new System.Drawing.Size(93, 17);
             this.label_arriving.TabIndex = 36;
             this.label_arriving.Text = "label_arriving";
+            this.label_arriving.Click += new System.EventHandler(this.label_arriving_Click);
             // 
             // label_id
             // 
             this.label_id.AutoSize = true;
-            this.label_id.Location = new System.Drawing.Point(110, 421);
+            this.label_id.Location = new System.Drawing.Point(147, 518);
+            this.label_id.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label_id.Name = "label_id";
-            this.label_id.Size = new System.Drawing.Size(43, 13);
+            this.label_id.Size = new System.Drawing.Size(57, 17);
             this.label_id.TabIndex = 37;
             this.label_id.Text = "label_id";
             // 
             // TakeCare
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 457);
+            this.ClientSize = new System.Drawing.Size(1067, 562);
             this.Controls.Add(this.label_id);
             this.Controls.Add(this.label_arriving);
             this.Controls.Add(this.label_age);
@@ -259,6 +281,7 @@ namespace final_project
             this.Controls.Add(this.check_pet_btn);
             this.Controls.Add(this.Pets_stock);
             this.Controls.Add(this.back_to_options_btn);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "TakeCare";
             this.Text = "TakeCare";
             this.Load += new System.EventHandler(this.TakeCare_Load);

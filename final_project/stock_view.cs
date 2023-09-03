@@ -126,5 +126,10 @@ namespace final_project
         {
 
         }
+
+        private void Pets_stock_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

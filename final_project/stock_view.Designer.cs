@@ -69,6 +69,7 @@ namespace final_project
             this.Pets_stock.Name = "Pets_stock";
             this.Pets_stock.Size = new System.Drawing.Size(279, 388);
             this.Pets_stock.TabIndex = 13;
+            this.Pets_stock.SelectedIndexChanged += new System.EventHandler(this.Pets_stock_SelectedIndexChanged);
             // 
             // specie2_radio
             // 
