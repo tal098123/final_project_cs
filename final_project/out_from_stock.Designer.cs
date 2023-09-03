@@ -271,12 +271,8 @@ namespace final_project
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.ListBox listBox1;
-<<<<<<< HEAD
         private System.ComponentModel.BackgroundWorker backgroundWorker1;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.GroupBox groupBox2;
-=======
-        private System.Windows.Forms.GroupBox groupBox1;
->>>>>>> 022e3afc28b202ce44f7e0907c26c774e92f951f
     }
 }
