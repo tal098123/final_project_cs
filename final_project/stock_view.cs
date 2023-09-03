@@ -39,7 +39,7 @@ namespace final_project
             specie2_radio.Text = "GoldenRetriever";
             specie1_radio.Checked = true;
             refresh_list();
-            //refresh_list();
+       
         }
 
         private void type_cat_radio_Click(object sender, EventArgs e)

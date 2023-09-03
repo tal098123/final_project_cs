@@ -108,7 +108,6 @@ namespace final_project
             specie2_radio.Text = "Angelfish";
             specie1_radio.Checked = true;
             refresh_list();
-            //refresh_list();
         }
 
         private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
@@ -199,6 +198,36 @@ namespace final_project
         }
 
         private void label_arriving_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void groupBox1_Enter(object sender, EventArgs e)
+        {
+
+        }
+
+        private void specie1_radio_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void type_dog_radio_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void groupBox2_Enter(object sender, EventArgs e)
+        {
+
+        }
+
+        private void type_cat_radio_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void type_fish_radio_CheckedChanged(object sender, EventArgs e)
         {
 
         }

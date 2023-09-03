@@ -98,6 +98,7 @@ namespace final_project
             this.specie1_radio.TabStop = true;
             this.specie1_radio.Text = "radioButton4";
             this.specie1_radio.UseVisualStyleBackColor = true;
+            this.specie1_radio.CheckedChanged += new System.EventHandler(this.specie1_radio_CheckedChanged);
             this.specie1_radio.Click += new System.EventHandler(this.specie1_radio_Click);
             // 
             // type_fish_radio
@@ -111,6 +112,7 @@ namespace final_project
             this.type_fish_radio.TabStop = true;
             this.type_fish_radio.Text = "Fish";
             this.type_fish_radio.UseVisualStyleBackColor = true;
+            this.type_fish_radio.CheckedChanged += new System.EventHandler(this.type_fish_radio_CheckedChanged);
             this.type_fish_radio.Click += new System.EventHandler(this.type_fish_radio_Click);
             // 
             // type_cat_radio
@@ -124,6 +126,7 @@ namespace final_project
             this.type_cat_radio.TabStop = true;
             this.type_cat_radio.Text = "Cat";
             this.type_cat_radio.UseVisualStyleBackColor = true;
+            this.type_cat_radio.CheckedChanged += new System.EventHandler(this.type_cat_radio_CheckedChanged);
             this.type_cat_radio.Click += new System.EventHandler(this.type_cat_radio_Click);
             // 
             // type_dog_radio
@@ -137,6 +140,7 @@ namespace final_project
             this.type_dog_radio.TabStop = true;
             this.type_dog_radio.Text = "Dog";
             this.type_dog_radio.UseVisualStyleBackColor = true;
+            this.type_dog_radio.CheckedChanged += new System.EventHandler(this.type_dog_radio_CheckedChanged);
             this.type_dog_radio.Click += new System.EventHandler(this.type_dog_radio_Click);
             // 
             // check_pet_btn
@@ -175,6 +179,7 @@ namespace final_project
             this.groupBox1.TabIndex = 30;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Specie";
+            this.groupBox1.Enter += new System.EventHandler(this.groupBox1_Enter);
             // 
             // groupBox2
             // 
@@ -189,6 +194,7 @@ namespace final_project
             this.groupBox2.TabIndex = 0;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Type";
+            this.groupBox2.Enter += new System.EventHandler(this.groupBox2_Enter);
             // 
             // pet_feedback
             // 
