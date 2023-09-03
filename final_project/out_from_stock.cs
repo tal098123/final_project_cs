@@ -38,9 +38,7 @@ namespace final_project
             int selectedIndex = listBox1.SelectedIndex;
             if (selectedIndex >= 0)
             {
-                selected_pet = SharedDatabase.Data[pet_type][pet_specie][selectedIndex];
-                if (selected_pet != null)
-                    SharedDatabase.Data[pet_type][pet_specie].Remove(selected_pet);
+                SharedDatabase.Data[pet_type][pet_specie].RemoveAt(selectedIndex);
             }
         }
         private void radioButton4_CheckedChanged(object sender, EventArgs e)
