@@ -13,21 +13,11 @@ namespace Database
     public static class SharedDatabase
     {
         public static Dictionary<string, Dictionary<string, List<Pet>>> Data = new Dictionary<string, Dictionary<string, List<Pet>>>();
-        public static Dictionary<string, Dictionary<int, string>> specie_id = new Dictionary<string, Dictionary<int, string>>();
         public static event Action OnDataChanged;
         public static int id_counter = 1;
         static SharedDatabase()
         {
             SharedDatabase.LoadFromFile();
-            SharedDatabase.specie_id["Dog"] = new Dictionary<int, string>();
-            SharedDatabase.specie_id["Dog"][1] = "Poodle";
-            SharedDatabase.specie_id["Dog"][2] = "GoldenRetriever";
-            SharedDatabase.specie_id["Cat"] = new Dictionary<int, string>();
-            SharedDatabase.specie_id["Cat"][1] = "Siamese";
-            SharedDatabase.specie_id["Cat"][2] = "British";
-            SharedDatabase.specie_id["Fish"] = new Dictionary<int, string>();
-            SharedDatabase.specie_id["Fish"][1] = "Goldfish";
-            SharedDatabase.specie_id["Fish"][2] = "Angelfish";
             //SharedDatabase.Data["Dog"] = new Dictionary<string, List<Pet>>();
             //SharedDatabase.Data["Dog"]["Poodle"] = new List<Pet>();
             //SharedDatabase.Data["Dog"]["Poodle"].Add(new Poodle("George", DateTime.Now, DateTime.Now));

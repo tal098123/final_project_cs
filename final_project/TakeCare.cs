@@ -100,13 +100,13 @@ namespace final_project
 
         private void specie1_radio_Click(object sender, EventArgs e)
         {
-            pet_specie = SharedDatabase.specie_id[pet_type][1];
+            pet_specie = specie1_radio.Text;
             refresh_list();
         }
 
         private void specie2_radio_Click(object sender, EventArgs e)
         {
-            pet_specie = SharedDatabase.specie_id[pet_type][2];
+            pet_specie = specie2_radio.Text;
             refresh_list();
         }
 

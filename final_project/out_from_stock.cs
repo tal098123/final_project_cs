@@ -91,7 +91,7 @@ namespace final_project
             //SharedDatabase.specie_id["Fish"][2] = "Angelfish";
             //SharedDatabase.SaveToFile();
             //int count = SharedDatabase.Data["Dog"]["Poodle"].Count;
-          //  listBox1.Items.Clear();
+            listBox1.Items.Clear();
             label_age.Text = "";
             label_date.Text = "";
             label_id.Text = "";
