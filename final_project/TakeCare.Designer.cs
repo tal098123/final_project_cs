@@ -40,13 +40,13 @@ namespace final_project
             this.feed_pet_btn = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.pet_feedback = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label_age = new System.Windows.Forms.Label();
             this.label_arriving = new System.Windows.Forms.Label();
             this.label_id = new System.Windows.Forms.Label();
+            this.pet_feedback = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.SuspendLayout();
@@ -65,8 +65,10 @@ namespace final_project
             // 
             // Pets_stock
             // 
+            this.Pets_stock.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(177)));
+            this.Pets_stock.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.Pets_stock.FormattingEnabled = true;
-            this.Pets_stock.ItemHeight = 16;
+            this.Pets_stock.ItemHeight = 22;
             this.Pets_stock.Location = new System.Drawing.Point(51, 75);
             this.Pets_stock.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Pets_stock.Name = "Pets_stock";
@@ -77,10 +79,12 @@ namespace final_project
             // specie2_radio
             // 
             this.specie2_radio.AutoSize = true;
+            this.specie2_radio.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(177)));
+            this.specie2_radio.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.specie2_radio.Location = new System.Drawing.Point(0, 116);
             this.specie2_radio.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.specie2_radio.Name = "specie2_radio";
-            this.specie2_radio.Size = new System.Drawing.Size(110, 21);
+            this.specie2_radio.Size = new System.Drawing.Size(148, 28);
             this.specie2_radio.TabIndex = 21;
             this.specie2_radio.TabStop = true;
             this.specie2_radio.Text = "radioButton5";
@@ -90,10 +94,12 @@ namespace final_project
             // specie1_radio
             // 
             this.specie1_radio.AutoSize = true;
+            this.specie1_radio.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(177)));
+            this.specie1_radio.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.specie1_radio.Location = new System.Drawing.Point(0, 57);
             this.specie1_radio.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.specie1_radio.Name = "specie1_radio";
-            this.specie1_radio.Size = new System.Drawing.Size(110, 21);
+            this.specie1_radio.Size = new System.Drawing.Size(148, 28);
             this.specie1_radio.TabIndex = 20;
             this.specie1_radio.TabStop = true;
             this.specie1_radio.Text = "radioButton4";
@@ -104,10 +110,12 @@ namespace final_project
             // type_fish_radio
             // 
             this.type_fish_radio.AutoSize = true;
+            this.type_fish_radio.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(177)));
+            this.type_fish_radio.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.type_fish_radio.Location = new System.Drawing.Point(0, 130);
             this.type_fish_radio.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.type_fish_radio.Name = "type_fish_radio";
-            this.type_fish_radio.Size = new System.Drawing.Size(55, 21);
+            this.type_fish_radio.Size = new System.Drawing.Size(71, 28);
             this.type_fish_radio.TabIndex = 19;
             this.type_fish_radio.TabStop = true;
             this.type_fish_radio.Text = "Fish";
@@ -118,10 +126,12 @@ namespace final_project
             // type_cat_radio
             // 
             this.type_cat_radio.AutoSize = true;
+            this.type_cat_radio.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(177)));
+            this.type_cat_radio.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.type_cat_radio.Location = new System.Drawing.Point(0, 85);
             this.type_cat_radio.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.type_cat_radio.Name = "type_cat_radio";
-            this.type_cat_radio.Size = new System.Drawing.Size(50, 21);
+            this.type_cat_radio.Size = new System.Drawing.Size(61, 28);
             this.type_cat_radio.TabIndex = 18;
             this.type_cat_radio.TabStop = true;
             this.type_cat_radio.Text = "Cat";
@@ -132,10 +142,12 @@ namespace final_project
             // type_dog_radio
             // 
             this.type_dog_radio.AutoSize = true;
+            this.type_dog_radio.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(177)));
+            this.type_dog_radio.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.type_dog_radio.Location = new System.Drawing.Point(0, 43);
             this.type_dog_radio.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.type_dog_radio.Name = "type_dog_radio";
-            this.type_dog_radio.Size = new System.Drawing.Size(55, 21);
+            this.type_dog_radio.Size = new System.Drawing.Size(69, 28);
             this.type_dog_radio.TabIndex = 17;
             this.type_dog_radio.TabStop = true;
             this.type_dog_radio.Text = "Dog";
@@ -145,7 +157,8 @@ namespace final_project
             // 
             // check_pet_btn
             // 
-            this.check_pet_btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.check_pet_btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.check_pet_btn.ForeColor = System.Drawing.Color.Teal;
             this.check_pet_btn.Location = new System.Drawing.Point(761, 375);
             this.check_pet_btn.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.check_pet_btn.Name = "check_pet_btn";
@@ -157,7 +170,8 @@ namespace final_project
             // 
             // feed_pet_btn
             // 
-            this.feed_pet_btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.feed_pet_btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.feed_pet_btn.ForeColor = System.Drawing.Color.Teal;
             this.feed_pet_btn.Location = new System.Drawing.Point(445, 375);
             this.feed_pet_btn.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.feed_pet_btn.Name = "feed_pet_btn";
@@ -196,65 +210,63 @@ namespace final_project
             this.groupBox2.Text = "Type";
             this.groupBox2.Enter += new System.EventHandler(this.groupBox2_Enter);
             // 
-            // pet_feedback
-            // 
-            this.pet_feedback.AutoSize = true;
-            this.pet_feedback.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.pet_feedback.Location = new System.Drawing.Point(535, 481);
-            this.pet_feedback.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.pet_feedback.Name = "pet_feedback";
-            this.pet_feedback.Size = new System.Drawing.Size(64, 25);
-            this.pet_feedback.TabIndex = 31;
-            this.pet_feedback.Text = "label2";
-            this.pet_feedback.Click += new System.EventHandler(this.label2_Click_1);
-            // 
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(177)));
+            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.label1.Location = new System.Drawing.Point(105, 518);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(19, 17);
+            this.label1.Size = new System.Drawing.Size(30, 20);
             this.label1.TabIndex = 32;
-            this.label1.Text = "id";
+            this.label1.Text = "id:";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(177)));
+            this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.label3.Location = new System.Drawing.Point(88, 459);
             this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(36, 17);
+            this.label3.Size = new System.Drawing.Size(45, 20);
             this.label3.TabIndex = 33;
             this.label3.Text = "age:";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(35, 487);
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(177)));
+            this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.label4.Location = new System.Drawing.Point(25, 487);
             this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(91, 17);
+            this.label4.Size = new System.Drawing.Size(124, 20);
             this.label4.TabIndex = 34;
-            this.label4.Text = "arriving_date";
+            this.label4.Text = "arriving_date:";
             // 
             // label_age
             // 
             this.label_age.AutoSize = true;
-            this.label_age.Location = new System.Drawing.Point(147, 459);
+            this.label_age.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(177)));
+            this.label_age.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.label_age.Location = new System.Drawing.Point(170, 459);
             this.label_age.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label_age.Name = "label_age";
-            this.label_age.Size = new System.Drawing.Size(70, 17);
+            this.label_age.Size = new System.Drawing.Size(89, 20);
             this.label_age.TabIndex = 35;
             this.label_age.Text = "label_age";
             // 
             // label_arriving
             // 
             this.label_arriving.AutoSize = true;
-            this.label_arriving.Location = new System.Drawing.Point(147, 487);
+            this.label_arriving.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(177)));
+            this.label_arriving.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.label_arriving.Location = new System.Drawing.Point(170, 487);
             this.label_arriving.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label_arriving.Name = "label_arriving";
-            this.label_arriving.Size = new System.Drawing.Size(93, 17);
+            this.label_arriving.Size = new System.Drawing.Size(122, 20);
             this.label_arriving.TabIndex = 36;
             this.label_arriving.Text = "label_arriving";
             this.label_arriving.Click += new System.EventHandler(this.label_arriving_Click);
@@ -262,25 +274,38 @@ namespace final_project
             // label_id
             // 
             this.label_id.AutoSize = true;
-            this.label_id.Location = new System.Drawing.Point(147, 518);
+            this.label_id.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(177)));
+            this.label_id.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.label_id.Location = new System.Drawing.Point(170, 518);
             this.label_id.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label_id.Name = "label_id";
-            this.label_id.Size = new System.Drawing.Size(57, 17);
+            this.label_id.Size = new System.Drawing.Size(74, 20);
             this.label_id.TabIndex = 37;
             this.label_id.Text = "label_id";
+            // 
+            // pet_feedback
+            // 
+            this.pet_feedback.AutoSize = true;
+            this.pet_feedback.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(177)));
+            this.pet_feedback.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.pet_feedback.Location = new System.Drawing.Point(393, 459);
+            this.pet_feedback.Name = "pet_feedback";
+            this.pet_feedback.Size = new System.Drawing.Size(66, 24);
+            this.pet_feedback.TabIndex = 38;
+            this.pet_feedback.Text = "label2";
             // 
             // TakeCare
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1067, 562);
+            this.Controls.Add(this.pet_feedback);
             this.Controls.Add(this.label_id);
             this.Controls.Add(this.label_arriving);
             this.Controls.Add(this.label_age);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.pet_feedback);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.feed_pet_btn);
@@ -313,12 +338,12 @@ namespace final_project
         private System.Windows.Forms.Button feed_pet_btn;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.GroupBox groupBox2;
-        private System.Windows.Forms.Label pet_feedback;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label_age;
         private System.Windows.Forms.Label label_arriving;
         private System.Windows.Forms.Label label_id;
+        private System.Windows.Forms.Label pet_feedback;
     }
 }

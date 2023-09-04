@@ -76,10 +76,18 @@ namespace final_project
                 SharedDatabase.Data["Fish"]["Goldfish"].Add(new Poodle(textBox1.Text.ToString(), DateTime.Today, dateTimePicker1.Value));
             else 
                 SharedDatabase.Data["Fish"]["Angelfish"].Add(new Poodle(textBox1.Text.ToString(), DateTime.Today, dateTimePicker1.Value));
+           
             SharedDatabase.DataChanged();
+            clearRegist();
             this.Hide();
 
 
+        }
+        private void clearRegist()
+        {
+            //comboBox3.Items.Clear();
+            comboBox2.Items.Clear();
+            textBox1.Clear();
         }
 
         private void dateTimePicker1_ValueChanged(object sender, EventArgs e)
@@ -96,7 +104,8 @@ namespace final_project
 
         private void button1_Click(object sender, EventArgs e)
         {
-
+            clearRegist();
+            this.Hide();
         }
     }
 }

@@ -17,6 +17,7 @@ namespace final_project
     {
         public string pet_type = "Dog";
         public string pet_specie = "Poodle";
+        public Pet selected_pet;
         public out_from_stock()
         {
             InitializeComponent();
@@ -24,8 +25,16 @@ namespace final_project
             SharedDatabase.OnDataChanged += refresh_list;
         }
 
+        private void clear()
+        {
+            listBox1.Items.Clear();
+            label_age.Text = "";
+            label_date.Text = "";
+            label_id.Text = "";
+        }
         private void button1_Click(object sender, EventArgs e)
         {
+            clear();
             this.Hide();
         }
 
@@ -43,6 +52,7 @@ namespace final_project
                 SharedDatabase.DataChanged();
             }
             refresh_list();
+          //  clear();
         }
         private void radioButton4_CheckedChanged(object sender, EventArgs e)
         {
@@ -81,12 +91,17 @@ namespace final_project
             //SharedDatabase.specie_id["Fish"][2] = "Angelfish";
             //SharedDatabase.SaveToFile();
             //int count = SharedDatabase.Data["Dog"]["Poodle"].Count;
-            listBox1.Items.Clear();
+          //  listBox1.Items.Clear();
+            label_age.Text = "";
+            label_date.Text = "";
+            label_id.Text = "";
+           // selected_pet = null;
             int count = SharedDatabase.Data[pet_type][pet_specie].Count;
             for (int i = 0; i < count; i++)
             {
                 listBox1.Items.Add(SharedDatabase.Data[pet_type][pet_specie][i].get_name());
             }
+
         }
 
         private void radioButton1_CheckedChanged(object sender, EventArgs e)
@@ -121,7 +136,14 @@ namespace final_project
         }
         private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
-            
+            int selectedIndex=listBox1.SelectedIndex;
+            if (selectedIndex >= 0)
+            {
+                selected_pet = SharedDatabase.Data[pet_type][pet_specie][selectedIndex];
+                label_age.Text = selected_pet.get_age().ToString();
+                label_date.Text = selected_pet.get_arriving_date().ToString();
+                label_id.Text = selected_pet.get_id().ToString();
+            }
         }
 
         private void groupBox1_Enter(object sender, EventArgs e)

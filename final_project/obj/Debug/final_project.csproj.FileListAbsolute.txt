@@ -32,5 +32,4 @@ C:\Users\edend\OneDrive\שולחן העבודה\pets_shop\final_project_cs\final
 C:\Users\edend\OneDrive\שולחן העבודה\pets_shop\final_project_cs\final_project\obj\Debug\final_project.csproj.CopyComplete
 C:\Users\edend\OneDrive\שולחן העבודה\pets_shop\final_project_cs\final_project\obj\Debug\final_project.exe
 C:\Users\edend\OneDrive\שולחן העבודה\pets_shop\final_project_cs\final_project\obj\Debug\final_project.pdb
-C:\Users\edend\OneDrive\שולחן העבודה\pets_shop\final_project_cs\final_project\obj\Debug\final_project.csproj.AssemblyReference.cache
 C:\Users\Prisma\source\repos\final_project\final_project\obj\Debug\final_project.csproj.AssemblyReference.cache

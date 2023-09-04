@@ -85,37 +85,6 @@ namespace final_project
         }
         public void refresh_list()
         {
-            //SharedDatabase.LoadFromFile();
-            //SharedDatabase.Data["Dog"] = new Dictionary<string, List<Pet>>();
-            //SharedDatabase.Data["Dog"]["Poodle"] = new List<Pet>();
-            //SharedDatabase.Data["Dog"]["Poodle"].Add(new Poodle("George", DateTime.Now, DateTime.Now));
-            ////int count = SharedDatabase.Data["Dog"]["Poodle"].Count;
-            ////Console.WriteLine(count);
-            ////Pet pet = SharedDatabase.Data["Dog"]["Poodle"][0];
-            ////Poodle check_1 = pet as Poodle;
-            //SharedDatabase.specie_id["Dog"] = new Dictionary<int, string>();
-            //SharedDatabase.specie_id["Dog"][1] = "Poodle";
-            //SharedDatabase.Data["Dog"]["GoldenRetriever"] = new List<Pet>();
-            //SharedDatabase.Data["Dog"]["GoldenRetriever"].Add(new GoldenRetriever("Terry", DateTime.Now, DateTime.Now));
-            //SharedDatabase.specie_id["Dog"][2] = "GoldenRetriever";
-            //SharedDatabase.Data["Cat"] = new Dictionary<string, List<Pet>>();
-            //SharedDatabase.Data["Cat"]["Siamese"] = new List<Pet>();
-            //SharedDatabase.Data["Cat"]["Siamese"].Add(new Siamese("shimi", DateTime.Now, DateTime.Now));
-            //SharedDatabase.specie_id["Cat"] = new Dictionary<int, string>();
-            //SharedDatabase.specie_id["Cat"][1] = "Siamese";
-            //SharedDatabase.Data["Cat"]["British"] = new List<Pet>();
-            //SharedDatabase.Data["Cat"]["British"].Add(new British("Sebastian", DateTime.Now, DateTime.Now));
-            //SharedDatabase.specie_id["Cat"][2] = "British";
-            //SharedDatabase.Data["Fish"] = new Dictionary<string, List<Pet>>();
-            //SharedDatabase.Data["Fish"]["Goldfish"] = new List<Pet>();
-            //SharedDatabase.Data["Fish"]["Goldfish"].Add(new Goldfish("Danny", DateTime.Now, DateTime.Now));
-            //SharedDatabase.specie_id["Fish"] = new Dictionary<int, string>();
-            //SharedDatabase.specie_id["Fish"][1] = "Goldfish";
-            //SharedDatabase.Data["Fish"]["Angelfish"] = new List<Pet>();
-            //SharedDatabase.Data["Fish"]["Angelfish"].Add(new Angelfish("Kiki", DateTime.Now, DateTime.Now));
-            //SharedDatabase.specie_id["Fish"][2] = "Angelfish";
-            //SharedDatabase.SaveToFile();
-            //int count = SharedDatabase.Data["Dog"]["Poodle"].Count;
             Pets_stock.Items.Clear();
             pet_feedback.Text = "";
             label_age.Text = "";

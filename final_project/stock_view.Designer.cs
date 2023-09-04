@@ -50,7 +50,8 @@ namespace final_project
             // 
             // button1
             // 
-            this.button1.Font = new System.Drawing.Font("Microsoft Tai Le", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Font = new System.Drawing.Font("Microsoft Tai Le", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.ForeColor = System.Drawing.Color.Teal;
             this.button1.Location = new System.Drawing.Point(351, 15);
             this.button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button1.Name = "button1";
@@ -62,22 +63,26 @@ namespace final_project
             // 
             // Pets_stock
             // 
+            this.Pets_stock.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(177)));
+            this.Pets_stock.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.Pets_stock.FormattingEnabled = true;
-            this.Pets_stock.ItemHeight = 16;
-            this.Pets_stock.Location = new System.Drawing.Point(63, 117);
+            this.Pets_stock.ItemHeight = 22;
+            this.Pets_stock.Location = new System.Drawing.Point(62, 85);
             this.Pets_stock.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Pets_stock.Name = "Pets_stock";
-            this.Pets_stock.Size = new System.Drawing.Size(279, 388);
+            this.Pets_stock.Size = new System.Drawing.Size(279, 378);
             this.Pets_stock.TabIndex = 13;
             this.Pets_stock.SelectedIndexChanged += new System.EventHandler(this.Pets_stock_SelectedIndexChanged);
             // 
             // specie2_radio
             // 
             this.specie2_radio.AutoSize = true;
+            this.specie2_radio.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(177)));
+            this.specie2_radio.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.specie2_radio.Location = new System.Drawing.Point(0, 103);
             this.specie2_radio.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.specie2_radio.Name = "specie2_radio";
-            this.specie2_radio.Size = new System.Drawing.Size(133, 21);
+            this.specie2_radio.Size = new System.Drawing.Size(183, 28);
             this.specie2_radio.TabIndex = 12;
             this.specie2_radio.TabStop = true;
             this.specie2_radio.Text = "GoldenRetriever";
@@ -88,10 +93,12 @@ namespace final_project
             // 
             this.specie1_radio.AutoSize = true;
             this.specie1_radio.Checked = true;
+            this.specie1_radio.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(177)));
+            this.specie1_radio.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.specie1_radio.Location = new System.Drawing.Point(0, 50);
             this.specie1_radio.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.specie1_radio.Name = "specie1_radio";
-            this.specie1_radio.Size = new System.Drawing.Size(73, 21);
+            this.specie1_radio.Size = new System.Drawing.Size(97, 28);
             this.specie1_radio.TabIndex = 11;
             this.specie1_radio.TabStop = true;
             this.specie1_radio.Text = "Poodle";
@@ -101,10 +108,12 @@ namespace final_project
             // radioButton3
             // 
             this.radioButton3.AutoSize = true;
+            this.radioButton3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(177)));
+            this.radioButton3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.radioButton3.Location = new System.Drawing.Point(0, 117);
             this.radioButton3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.radioButton3.Name = "radioButton3";
-            this.radioButton3.Size = new System.Drawing.Size(55, 21);
+            this.radioButton3.Size = new System.Drawing.Size(71, 28);
             this.radioButton3.TabIndex = 10;
             this.radioButton3.TabStop = true;
             this.radioButton3.Text = "Fish";
@@ -114,10 +123,12 @@ namespace final_project
             // radioButton2
             // 
             this.radioButton2.AutoSize = true;
+            this.radioButton2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(177)));
+            this.radioButton2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.radioButton2.Location = new System.Drawing.Point(0, 76);
             this.radioButton2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.radioButton2.Name = "radioButton2";
-            this.radioButton2.Size = new System.Drawing.Size(50, 21);
+            this.radioButton2.Size = new System.Drawing.Size(61, 28);
             this.radioButton2.TabIndex = 9;
             this.radioButton2.TabStop = true;
             this.radioButton2.Text = "Cat";
@@ -128,10 +139,12 @@ namespace final_project
             // 
             this.radioButton1.AutoSize = true;
             this.radioButton1.Checked = true;
+            this.radioButton1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(177)));
+            this.radioButton1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.radioButton1.Location = new System.Drawing.Point(0, 37);
             this.radioButton1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(55, 21);
+            this.radioButton1.Size = new System.Drawing.Size(69, 28);
             this.radioButton1.TabIndex = 8;
             this.radioButton1.TabStop = true;
             this.radioButton1.Text = "Dog";
@@ -166,7 +179,8 @@ namespace final_project
             this.groupBox1.Controls.Add(this.radioButton1);
             this.groupBox1.Controls.Add(this.radioButton2);
             this.groupBox1.Controls.Add(this.radioButton3);
-            this.groupBox1.Location = new System.Drawing.Point(779, 171);
+            this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(177)));
+            this.groupBox1.Location = new System.Drawing.Point(792, 171);
             this.groupBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
@@ -179,11 +193,12 @@ namespace final_project
             // 
             this.groupBox2.Controls.Add(this.specie2_radio);
             this.groupBox2.Controls.Add(this.specie1_radio);
-            this.groupBox2.Location = new System.Drawing.Point(561, 171);
+            this.groupBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(177)));
+            this.groupBox2.Location = new System.Drawing.Point(489, 171);
             this.groupBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.groupBox2.Size = new System.Drawing.Size(152, 155);
+            this.groupBox2.Size = new System.Drawing.Size(224, 155);
             this.groupBox2.TabIndex = 0;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Specie";
