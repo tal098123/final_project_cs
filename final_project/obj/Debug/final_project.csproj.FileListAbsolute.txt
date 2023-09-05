@@ -1,20 +1,3 @@
-C:\Users\Prisma\source\repos\final_project\final_project\obj\Debug\final_project.MainWindow.resources
-C:\Users\Prisma\source\repos\final_project\final_project\obj\Debug\final_project.out_from_stock.resources
-C:\Users\Prisma\source\repos\final_project\final_project\obj\Debug\final_project.Properties.Resources.resources
-C:\Users\Prisma\source\repos\final_project\final_project\obj\Debug\final_project.regist_pet.resources
-C:\Users\Prisma\source\repos\final_project\final_project\obj\Debug\final_project.stock_view.resources
-C:\Users\Prisma\source\repos\final_project\final_project\obj\Debug\final_project.TakeCare.resources
-C:\Users\Prisma\source\repos\final_project\final_project\obj\Debug\final_project.csproj.GenerateResource.cache
-C:\Users\Prisma\source\repos\final_project\final_project\obj\Debug\final_project.csproj.CoreCompileInputs.cache
-C:\Users\Prisma\source\repos\final_project\final_project\bin\Debug\final_project.exe.config
-C:\Users\Prisma\source\repos\final_project\final_project\bin\Debug\final_project.exe
-C:\Users\Prisma\source\repos\final_project\final_project\bin\Debug\final_project.pdb
-C:\Users\Prisma\source\repos\final_project\final_project\bin\Debug\Newtonsoft.Json.dll
-C:\Users\Prisma\source\repos\final_project\final_project\bin\Debug\Newtonsoft.Json.pdb
-C:\Users\Prisma\source\repos\final_project\final_project\bin\Debug\Newtonsoft.Json.xml
-C:\Users\Prisma\source\repos\final_project\final_project\obj\Debug\final_project.csproj.CopyComplete
-C:\Users\Prisma\source\repos\final_project\final_project\obj\Debug\final_project.exe
-C:\Users\Prisma\source\repos\final_project\final_project\obj\Debug\final_project.pdb
 C:\Users\edend\OneDrive\שולחן העבודה\pets_shop\final_project_cs\final_project\bin\Debug\final_project.exe.config
 C:\Users\edend\OneDrive\שולחן העבודה\pets_shop\final_project_cs\final_project\bin\Debug\final_project.exe
 C:\Users\edend\OneDrive\שולחן העבודה\pets_shop\final_project_cs\final_project\bin\Debug\final_project.pdb
@@ -33,3 +16,20 @@ C:\Users\edend\OneDrive\שולחן העבודה\pets_shop\final_project_cs\final
 C:\Users\edend\OneDrive\שולחן העבודה\pets_shop\final_project_cs\final_project\obj\Debug\final_project.exe
 C:\Users\edend\OneDrive\שולחן העבודה\pets_shop\final_project_cs\final_project\obj\Debug\final_project.pdb
 C:\Users\edend\OneDrive\שולחן העבודה\pets_shop\final_project_cs\final_project\obj\Debug\final_project.csproj.AssemblyReference.cache
+C:\Users\Prisma\source\repos\final_project\final_project\bin\Debug\final_project.exe.config
+C:\Users\Prisma\source\repos\final_project\final_project\bin\Debug\final_project.exe
+C:\Users\Prisma\source\repos\final_project\final_project\bin\Debug\final_project.pdb
+C:\Users\Prisma\source\repos\final_project\final_project\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Prisma\source\repos\final_project\final_project\bin\Debug\Newtonsoft.Json.pdb
+C:\Users\Prisma\source\repos\final_project\final_project\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Prisma\source\repos\final_project\final_project\obj\Debug\final_project.MainWindow.resources
+C:\Users\Prisma\source\repos\final_project\final_project\obj\Debug\final_project.out_from_stock.resources
+C:\Users\Prisma\source\repos\final_project\final_project\obj\Debug\final_project.Properties.Resources.resources
+C:\Users\Prisma\source\repos\final_project\final_project\obj\Debug\final_project.regist_pet.resources
+C:\Users\Prisma\source\repos\final_project\final_project\obj\Debug\final_project.stock_view.resources
+C:\Users\Prisma\source\repos\final_project\final_project\obj\Debug\final_project.TakeCare.resources
+C:\Users\Prisma\source\repos\final_project\final_project\obj\Debug\final_project.csproj.GenerateResource.cache
+C:\Users\Prisma\source\repos\final_project\final_project\obj\Debug\final_project.csproj.CoreCompileInputs.cache
+C:\Users\Prisma\source\repos\final_project\final_project\obj\Debug\final_project.csproj.CopyComplete
+C:\Users\Prisma\source\repos\final_project\final_project\obj\Debug\final_project.exe
+C:\Users\Prisma\source\repos\final_project\final_project\obj\Debug\final_project.pdb

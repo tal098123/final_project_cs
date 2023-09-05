@@ -16,9 +16,9 @@ namespace Pets
 
 		public string get_name() { return name; }
 		public DateTime get_arriving_date() { return arriving_date; }
-		public int get_age()
+		public TimeSpan get_age()
 		{
-			int age = DateTime.Today.Year - birth_date.Year;
+			TimeSpan age = DateTime.Now - birth_date;
 			return age;
 		}
 		public int get_id() { return id; }
@@ -43,7 +43,7 @@ namespace Pets
 			name = name_in;
 			arriving_date = date_in;
 			birth_date = birth_date_in;
-			id = SharedDatabase.id_counter*10 + 1;
+			id = SharedDatabase.id_counter;
 			SharedDatabase.id_counter++;
 		}
 
@@ -59,7 +59,7 @@ namespace Pets
 			name = name_in;
 			arriving_date = date_in;
 			birth_date = birth_date_in;
-			id = SharedDatabase.id_counter * 10 + 2;
+			id = SharedDatabase.id_counter;
 			SharedDatabase.id_counter++;
 		}
 		public override string serve_food()
@@ -82,7 +82,7 @@ namespace Pets
 			name = name_in;
 			arriving_date = date_in;
 			birth_date = birth_date_in;
-			id = SharedDatabase.id_counter * 10 + 1;
+			id = SharedDatabase.id_counter;
 			SharedDatabase.id_counter++;
 		}
 		public override string serve_food()
@@ -98,7 +98,7 @@ namespace Pets
 			name = name_in;
 			arriving_date = date_in;
 			birth_date = birth_date_in;
-			id = SharedDatabase.id_counter * 10 + 2;
+			id = SharedDatabase.id_counter;
 			SharedDatabase.id_counter++;
 		}
 		public override string serve_food()
@@ -122,7 +122,7 @@ namespace Pets
 			name = name_in;
 			arriving_date = date_in;
 			birth_date = birth_date_in;
-			id = SharedDatabase.id_counter * 10 + 1;
+			id = SharedDatabase.id_counter;
 			SharedDatabase.id_counter++;
 		}
 		public override string serve_food()
@@ -138,7 +138,7 @@ namespace Pets
 			name = name_in;
 			arriving_date = date_in;
 			birth_date = birth_date_in;
-			id = SharedDatabase.id_counter * 10 + 2;
+			id = SharedDatabase.id_counter;
 			SharedDatabase.id_counter++;
 		}
 		public override string serve_food()

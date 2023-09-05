@@ -48,7 +48,6 @@ namespace final_project
             specie2_radio.Text = "GoldenRetriever";
             specie1_radio.Checked = true;
             refresh_list();
-            //refresh_list();
         }
 
         private void type_cat_radio_Click(object sender, EventArgs e)
@@ -59,7 +58,6 @@ namespace final_project
             specie2_radio.Text = "British";
             specie1_radio.Checked = true;
             refresh_list();
-            //refresh_list();
         }
 
         private void type_fish_radio_Click(object sender, EventArgs e)
@@ -78,8 +76,9 @@ namespace final_project
             if (selectedIndex >= 0)
             {
                 selected_pet = SharedDatabase.Data[pet_type][pet_specie][selectedIndex];
-                label_age.Text = selected_pet.get_age().ToString();
-                label_arriving.Text = selected_pet.get_arriving_date().ToString();
+                TimeSpan pet_age = selected_pet.get_age();
+                label_age.Text = "year old: " + ((int)(pet_age.TotalDays/365)) + " months: " + (int)((pet_age.TotalDays % 365)/30) + " days: " + (int)((pet_age.TotalDays % 365) % 30);
+                label_arriving.Text = selected_pet.get_arriving_date().ToString("dd/MM/yyyy");
                 label_id.Text = selected_pet.get_id().ToString();
             }
         }

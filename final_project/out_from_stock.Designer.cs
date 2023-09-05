@@ -60,7 +60,7 @@ namespace final_project
             this.button1.Font = new System.Drawing.Font("Microsoft Tai Le", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.Color.Teal;
             this.button1.Location = new System.Drawing.Point(485, 18);
-            this.button1.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.button1.Margin = new System.Windows.Forms.Padding(5);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(283, 58);
             this.button1.TabIndex = 0;
@@ -74,10 +74,10 @@ namespace final_project
             this.radioButton1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.radioButton1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(177)));
             this.radioButton1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.radioButton1.Location = new System.Drawing.Point(55, 193);
-            this.radioButton1.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.radioButton1.Location = new System.Drawing.Point(55, 122);
+            this.radioButton1.Margin = new System.Windows.Forms.Padding(5);
             this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(61, 28);
+            this.radioButton1.Size = new System.Drawing.Size(52, 22);
             this.radioButton1.TabIndex = 1;
             this.radioButton1.Text = "Cat";
             this.radioButton1.UseVisualStyleBackColor = true;
@@ -90,9 +90,9 @@ namespace final_project
             this.radioButton2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(177)));
             this.radioButton2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.radioButton2.Location = new System.Drawing.Point(55, 57);
-            this.radioButton2.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.radioButton2.Margin = new System.Windows.Forms.Padding(5);
             this.radioButton2.Name = "radioButton2";
-            this.radioButton2.Size = new System.Drawing.Size(69, 28);
+            this.radioButton2.Size = new System.Drawing.Size(57, 22);
             this.radioButton2.TabIndex = 2;
             this.radioButton2.TabStop = true;
             this.radioButton2.Text = "Dog";
@@ -104,10 +104,10 @@ namespace final_project
             this.radioButton3.AutoSize = true;
             this.radioButton3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(177)));
             this.radioButton3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.radioButton3.Location = new System.Drawing.Point(55, 127);
-            this.radioButton3.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.radioButton3.Location = new System.Drawing.Point(55, 182);
+            this.radioButton3.Margin = new System.Windows.Forms.Padding(5);
             this.radioButton3.Name = "radioButton3";
-            this.radioButton3.Size = new System.Drawing.Size(71, 28);
+            this.radioButton3.Size = new System.Drawing.Size(58, 22);
             this.radioButton3.TabIndex = 3;
             this.radioButton3.Text = "Fish";
             this.radioButton3.UseVisualStyleBackColor = true;
@@ -119,12 +119,12 @@ namespace final_project
             this.radio_Button4.Checked = true;
             this.radio_Button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(177)));
             this.radio_Button4.Location = new System.Drawing.Point(9, 52);
-            this.radio_Button4.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.radio_Button4.Margin = new System.Windows.Forms.Padding(5);
             this.radio_Button4.Name = "radio_Button4";
-            this.radio_Button4.Size = new System.Drawing.Size(148, 28);
+            this.radio_Button4.Size = new System.Drawing.Size(79, 22);
             this.radio_Button4.TabIndex = 4;
             this.radio_Button4.TabStop = true;
-            this.radio_Button4.Text = "radioButton4";
+            this.radio_Button4.Text = "Poodle";
             this.radio_Button4.UseVisualStyleBackColor = true;
             this.radio_Button4.CheckedChanged += new System.EventHandler(this.radioButton4_CheckedChanged);
             // 
@@ -133,11 +133,11 @@ namespace final_project
             this.radio_Button5.AutoSize = true;
             this.radio_Button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(177)));
             this.radio_Button5.Location = new System.Drawing.Point(9, 112);
-            this.radio_Button5.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.radio_Button5.Margin = new System.Windows.Forms.Padding(5);
             this.radio_Button5.Name = "radio_Button5";
-            this.radio_Button5.Size = new System.Drawing.Size(148, 28);
+            this.radio_Button5.Size = new System.Drawing.Size(148, 22);
             this.radio_Button5.TabIndex = 5;
-            this.radio_Button5.Text = "radioButton5";
+            this.radio_Button5.Text = "GoldenRetriever";
             this.radio_Button5.UseVisualStyleBackColor = true;
             this.radio_Button5.CheckedChanged += new System.EventHandler(this.radio_Button5_CheckedChanged);
             // 
@@ -146,7 +146,7 @@ namespace final_project
             this.button2.Font = new System.Drawing.Font("Microsoft Tai Le", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.ForeColor = System.Drawing.Color.Teal;
             this.button2.Location = new System.Drawing.Point(474, 420);
-            this.button2.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.button2.Margin = new System.Windows.Forms.Padding(5);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(283, 58);
             this.button2.TabIndex = 7;
@@ -160,7 +160,7 @@ namespace final_project
             this.label1.Location = new System.Drawing.Point(36, 507);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(46, 17);
+            this.label1.Size = new System.Drawing.Size(35, 13);
             this.label1.TabIndex = 19;
             this.label1.Text = "label1";
             // 
@@ -168,11 +168,11 @@ namespace final_project
             // 
             this.listBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(177)));
             this.listBox1.FormattingEnabled = true;
-            this.listBox1.ItemHeight = 20;
+            this.listBox1.ItemHeight = 17;
             this.listBox1.Location = new System.Drawing.Point(27, 48);
-            this.listBox1.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.listBox1.Margin = new System.Windows.Forms.Padding(5);
             this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(297, 264);
+            this.listBox1.Size = new System.Drawing.Size(297, 259);
             this.listBox1.TabIndex = 17;
             this.listBox1.SelectedIndexChanged += new System.EventHandler(this.listBox1_SelectedIndexChanged);
             // 
@@ -183,9 +183,9 @@ namespace final_project
             this.groupBox1.Controls.Add(this.radioButton2);
             this.groupBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.groupBox1.Location = new System.Drawing.Point(697, 103);
-            this.groupBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(4);
             this.groupBox1.Size = new System.Drawing.Size(217, 273);
             this.groupBox1.TabIndex = 20;
             this.groupBox1.TabStop = false;
@@ -197,9 +197,9 @@ namespace final_project
             this.groupBox2.Controls.Add(this.radio_Button4);
             this.groupBox2.Controls.Add(this.radio_Button5);
             this.groupBox2.Location = new System.Drawing.Point(405, 122);
-            this.groupBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox2.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox2.Padding = new System.Windows.Forms.Padding(4);
             this.groupBox2.Size = new System.Drawing.Size(193, 202);
             this.groupBox2.TabIndex = 21;
             this.groupBox2.TabStop = false;
@@ -212,7 +212,7 @@ namespace final_project
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(177)));
             this.label2.Location = new System.Drawing.Point(38, 344);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(51, 24);
+            this.label2.Size = new System.Drawing.Size(40, 18);
             this.label2.TabIndex = 22;
             this.label2.Text = "age:";
             // 
@@ -222,7 +222,7 @@ namespace final_project
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(177)));
             this.label3.Location = new System.Drawing.Point(33, 390);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(136, 24);
+            this.label3.Size = new System.Drawing.Size(109, 18);
             this.label3.TabIndex = 23;
             this.label3.Text = "arriving_date:";
             // 
@@ -232,7 +232,7 @@ namespace final_project
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(177)));
             this.label4.Location = new System.Drawing.Point(40, 430);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(33, 24);
+            this.label4.Size = new System.Drawing.Size(26, 18);
             this.label4.TabIndex = 24;
             this.label4.Text = "id:";
             // 
@@ -243,7 +243,7 @@ namespace final_project
             this.label_age.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.label_age.Location = new System.Drawing.Point(175, 344);
             this.label_age.Name = "label_age";
-            this.label_age.Size = new System.Drawing.Size(0, 24);
+            this.label_age.Size = new System.Drawing.Size(0, 18);
             this.label_age.TabIndex = 25;
             // 
             // label_date
@@ -252,7 +252,7 @@ namespace final_project
             this.label_date.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(177)));
             this.label_date.Location = new System.Drawing.Point(178, 389);
             this.label_date.Name = "label_date";
-            this.label_date.Size = new System.Drawing.Size(0, 24);
+            this.label_date.Size = new System.Drawing.Size(0, 18);
             this.label_date.TabIndex = 26;
             // 
             // label_id
@@ -261,12 +261,12 @@ namespace final_project
             this.label_id.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(177)));
             this.label_id.Location = new System.Drawing.Point(178, 430);
             this.label_id.Name = "label_id";
-            this.label_id.Size = new System.Drawing.Size(0, 24);
+            this.label_id.Size = new System.Drawing.Size(0, 18);
             this.label_id.TabIndex = 27;
             // 
             // out_from_stock
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1117, 496);
             this.Controls.Add(this.label_id);
@@ -283,7 +283,7 @@ namespace final_project
             this.Controls.Add(this.button1);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(177)));
             this.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.Margin = new System.Windows.Forms.Padding(5);
             this.Name = "out_from_stock";
             this.Text = "out_of_stock";
             this.Load += new System.EventHandler(this.out_from_stock_Load);

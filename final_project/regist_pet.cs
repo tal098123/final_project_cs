@@ -19,6 +19,8 @@ namespace final_project
         public regist_pet()
         {
             InitializeComponent();
+            dateTimePicker1.MaxDate = DateTime.Today;
+            dateTimePicker1.MinDate = DateTime.Today.AddYears(-4);
         }
 
         private void regist_pet_Load(object sender, EventArgs e)
@@ -80,21 +82,15 @@ namespace final_project
             SharedDatabase.DataChanged();
             clearRegist();
             this.Hide();
-
-
         }
         private void clearRegist()
         {
-            //comboBox3.Items.Clear();
             comboBox2.Items.Clear();
             textBox1.Clear();
         }
 
         private void dateTimePicker1_ValueChanged(object sender, EventArgs e)
         {
-            dateTimePicker1.MaxDate = DateTime.Today;
-            dateTimePicker1.MinDate = DateTime.Today.AddYears(-4);
-            //DateTime dt = dateTimePicker1.Value;
         }
 
         private void textBox1_TextChanged(object sender, EventArgs e)
