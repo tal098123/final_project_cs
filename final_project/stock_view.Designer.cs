@@ -158,17 +158,19 @@ namespace final_project
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(59, 527);
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(177)));
+            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.label1.Location = new System.Drawing.Point(59, 498);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(128, 17);
+            this.label1.Size = new System.Drawing.Size(189, 24);
             this.label1.TabIndex = 16;
             this.label1.Text = "number of species:";
             // 
             // count_species
             // 
             this.count_species.AutoSize = true;
-            this.count_species.Location = new System.Drawing.Point(195, 527);
+            this.count_species.Location = new System.Drawing.Point(195, 498);
             this.count_species.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.count_species.Name = "count_species";
             this.count_species.Size = new System.Drawing.Size(0, 17);

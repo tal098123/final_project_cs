@@ -35,8 +35,8 @@ namespace final_project
             this.radioButton1 = new System.Windows.Forms.RadioButton();
             this.radioButton2 = new System.Windows.Forms.RadioButton();
             this.radioButton3 = new System.Windows.Forms.RadioButton();
-            this.radioButton4 = new System.Windows.Forms.RadioButton();
-            this.radioButton5 = new System.Windows.Forms.RadioButton();
+            this.radio_Button4 = new System.Windows.Forms.RadioButton();
+            this.radio_Button5 = new System.Windows.Forms.RadioButton();
             this.bindingSource1 = new System.Windows.Forms.BindingSource(this.components);
             this.button2 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
@@ -74,12 +74,11 @@ namespace final_project
             this.radioButton1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.radioButton1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(177)));
             this.radioButton1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.radioButton1.Location = new System.Drawing.Point(55, 50);
+            this.radioButton1.Location = new System.Drawing.Point(55, 193);
             this.radioButton1.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
             this.radioButton1.Name = "radioButton1";
             this.radioButton1.Size = new System.Drawing.Size(61, 28);
             this.radioButton1.TabIndex = 1;
-            this.radioButton1.TabStop = true;
             this.radioButton1.Text = "Cat";
             this.radioButton1.UseVisualStyleBackColor = true;
             this.radioButton1.CheckedChanged += new System.EventHandler(this.radioButton1_CheckedChanged);
@@ -87,9 +86,10 @@ namespace final_project
             // radioButton2
             // 
             this.radioButton2.AutoSize = true;
+            this.radioButton2.Checked = true;
             this.radioButton2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(177)));
             this.radioButton2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.radioButton2.Location = new System.Drawing.Point(55, 206);
+            this.radioButton2.Location = new System.Drawing.Point(55, 57);
             this.radioButton2.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
             this.radioButton2.Name = "radioButton2";
             this.radioButton2.Size = new System.Drawing.Size(69, 28);
@@ -109,37 +109,37 @@ namespace final_project
             this.radioButton3.Name = "radioButton3";
             this.radioButton3.Size = new System.Drawing.Size(71, 28);
             this.radioButton3.TabIndex = 3;
-            this.radioButton3.TabStop = true;
             this.radioButton3.Text = "Fish";
             this.radioButton3.UseVisualStyleBackColor = true;
             this.radioButton3.CheckedChanged += new System.EventHandler(this.radioButton3_CheckedChanged);
             // 
-            // radioButton4
+            // radio_Button4
             // 
-            this.radioButton4.AutoSize = true;
-            this.radioButton4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(177)));
-            this.radioButton4.Location = new System.Drawing.Point(9, 52);
-            this.radioButton4.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
-            this.radioButton4.Name = "radioButton4";
-            this.radioButton4.Size = new System.Drawing.Size(148, 28);
-            this.radioButton4.TabIndex = 4;
-            this.radioButton4.TabStop = true;
-            this.radioButton4.Text = "radioButton4";
-            this.radioButton4.UseVisualStyleBackColor = true;
-            this.radioButton4.CheckedChanged += new System.EventHandler(this.radioButton4_CheckedChanged);
+            this.radio_Button4.AutoSize = true;
+            this.radio_Button4.Checked = true;
+            this.radio_Button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(177)));
+            this.radio_Button4.Location = new System.Drawing.Point(9, 52);
+            this.radio_Button4.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.radio_Button4.Name = "radio_Button4";
+            this.radio_Button4.Size = new System.Drawing.Size(148, 28);
+            this.radio_Button4.TabIndex = 4;
+            this.radio_Button4.TabStop = true;
+            this.radio_Button4.Text = "radioButton4";
+            this.radio_Button4.UseVisualStyleBackColor = true;
+            this.radio_Button4.CheckedChanged += new System.EventHandler(this.radioButton4_CheckedChanged);
             // 
-            // radioButton5
+            // radio_Button5
             // 
-            this.radioButton5.AutoSize = true;
-            this.radioButton5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(177)));
-            this.radioButton5.Location = new System.Drawing.Point(9, 112);
-            this.radioButton5.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
-            this.radioButton5.Name = "radioButton5";
-            this.radioButton5.Size = new System.Drawing.Size(148, 28);
-            this.radioButton5.TabIndex = 5;
-            this.radioButton5.TabStop = true;
-            this.radioButton5.Text = "radioButton5";
-            this.radioButton5.UseVisualStyleBackColor = true;
+            this.radio_Button5.AutoSize = true;
+            this.radio_Button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(177)));
+            this.radio_Button5.Location = new System.Drawing.Point(9, 112);
+            this.radio_Button5.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.radio_Button5.Name = "radio_Button5";
+            this.radio_Button5.Size = new System.Drawing.Size(148, 28);
+            this.radio_Button5.TabIndex = 5;
+            this.radio_Button5.Text = "radioButton5";
+            this.radio_Button5.UseVisualStyleBackColor = true;
+            this.radio_Button5.CheckedChanged += new System.EventHandler(this.radio_Button5_CheckedChanged);
             // 
             // button2
             // 
@@ -194,8 +194,8 @@ namespace final_project
             // 
             // groupBox2
             // 
-            this.groupBox2.Controls.Add(this.radioButton4);
-            this.groupBox2.Controls.Add(this.radioButton5);
+            this.groupBox2.Controls.Add(this.radio_Button4);
+            this.groupBox2.Controls.Add(this.radio_Button5);
             this.groupBox2.Location = new System.Drawing.Point(405, 122);
             this.groupBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.groupBox2.Name = "groupBox2";
@@ -243,9 +243,8 @@ namespace final_project
             this.label_age.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.label_age.Location = new System.Drawing.Point(175, 344);
             this.label_age.Name = "label_age";
-            this.label_age.Size = new System.Drawing.Size(66, 24);
+            this.label_age.Size = new System.Drawing.Size(0, 24);
             this.label_age.TabIndex = 25;
-            this.label_age.Text = "label5";
             // 
             // label_date
             // 
@@ -253,9 +252,8 @@ namespace final_project
             this.label_date.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(177)));
             this.label_date.Location = new System.Drawing.Point(178, 389);
             this.label_date.Name = "label_date";
-            this.label_date.Size = new System.Drawing.Size(66, 24);
+            this.label_date.Size = new System.Drawing.Size(0, 24);
             this.label_date.TabIndex = 26;
-            this.label_date.Text = "label6";
             // 
             // label_id
             // 
@@ -263,9 +261,8 @@ namespace final_project
             this.label_id.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(177)));
             this.label_id.Location = new System.Drawing.Point(178, 430);
             this.label_id.Name = "label_id";
-            this.label_id.Size = new System.Drawing.Size(66, 24);
+            this.label_id.Size = new System.Drawing.Size(0, 24);
             this.label_id.TabIndex = 27;
-            this.label_id.Text = "label7";
             // 
             // out_from_stock
             // 
@@ -306,8 +303,8 @@ namespace final_project
         private System.Windows.Forms.RadioButton radioButton1;
         private System.Windows.Forms.RadioButton radioButton2;
         private System.Windows.Forms.RadioButton radioButton3;
-        private System.Windows.Forms.RadioButton radioButton4;
-        private System.Windows.Forms.RadioButton radioButton5;
+        private System.Windows.Forms.RadioButton radio_Button4;
+        private System.Windows.Forms.RadioButton radio_Button5;
         private System.Windows.Forms.BindingSource bindingSource1;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Label label1;

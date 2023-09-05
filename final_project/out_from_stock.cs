@@ -27,6 +27,7 @@ namespace final_project
 
         private void clear()
         {
+
             listBox1.Items.Clear();
             label_age.Text = "";
             label_date.Text = "";
@@ -52,11 +53,13 @@ namespace final_project
                 SharedDatabase.DataChanged();
             }
             refresh_list();
-          //  clear();
+            clear();
         }
         private void radioButton4_CheckedChanged(object sender, EventArgs e)
         {
-          
+            pet_specie = radio_Button4.Text;
+            refresh_list();
+
         }
         public void refresh_list()
         {
@@ -95,7 +98,7 @@ namespace final_project
             label_age.Text = "";
             label_date.Text = "";
             label_id.Text = "";
-           // selected_pet = null;
+            selected_pet = null;
             int count = SharedDatabase.Data[pet_type][pet_specie].Count;
             for (int i = 0; i < count; i++)
             {
@@ -108,9 +111,9 @@ namespace final_project
         {
             pet_type = "Cat";
             pet_specie = "Siamese";
-            radioButton4.Text = "Siamese";
-            radioButton5.Text = "British";
-            radioButton4.Checked = true;
+            radio_Button4.Text = "Siamese";
+            radio_Button5.Text = "British";
+            radio_Button4.Checked = true;
             refresh_list();
         }
 
@@ -118,9 +121,9 @@ namespace final_project
         {
             pet_type = "Dog";
             pet_specie = "Poodle";
-            radioButton4.Text = "Poodle";
-            radioButton5.Text = "GoldenRetriever";
-            radioButton4.Checked = true;
+            radio_Button4.Text = "Poodle";
+            radio_Button5.Text = "GoldenRetriever";
+            radio_Button4.Checked = true;
             refresh_list();
         }
 
@@ -128,11 +131,10 @@ namespace final_project
         {
             pet_type = "Fish";
             pet_specie = "Goldfish";
-            radioButton4.Text = "Goldfish";
-            radioButton5.Text = "Angelfish";
-            radioButton4.Checked = true;
+            radio_Button4.Text = "Goldfish";
+            radio_Button5.Text = "Angelfish";
+            radio_Button4.Checked = true;
             refresh_list();
-
         }
         private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
@@ -154,6 +156,12 @@ namespace final_project
         private void groupBox2_Enter(object sender, EventArgs e)
         {
 
+        }
+
+        private void radio_Button5_CheckedChanged(object sender, EventArgs e)
+        {
+            pet_specie = radio_Button5.Text;
+            refresh_list();
         }
     }
 
