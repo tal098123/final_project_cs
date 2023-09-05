@@ -27,7 +27,6 @@ namespace final_project
 
         private void clear()
         {
-
             label_age.Text = "";
             label_date.Text = "";
             label_id.Text = "";
